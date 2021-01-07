@@ -1,13 +1,56 @@
-body{
-    background-color:black;
-}
+/*
+030710 rich black
+FFFFFF white
+0D4176 indigo dye (darkest)
+1D73EA blue crayola (medium)
+3588CA green blue crayola (lightest)
+9C6615 golden brown
+*/
 
+body{
+    background-color:#030710;
+}
 .navbar{
     margin-bottom:0;
     border:0;
     width:100%;
-    background-color: rgba(255,255,255, 0.9);
+    background-color: rgba(0, 0, 0, 0.2);
 }
+
+/*--Copied & adapted from https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/--*/
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29, 115, 234, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+.navbar-logo{
+    position: absolute;
+    top:0;
+    right:0;
+    width:100px;
+    height:100px;
+    background: url("../images/dave-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.psychodrama {
+    background: url("../images/psychodrama-art.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100px;
+}
+
+.navbar .navbar-nav a{
+    color:#1D73EA;
+}
+
+.navbar .navbar-nav .active a{
+    color:#0D4176;
+}
+
 
 .navbar .navbar-toggler{
     border:0;
@@ -20,6 +63,10 @@ body{
     right:0;
 }
 
+span .navbar-toggler-icon{
+    border-color:#1D73EA;
+}
+
 #footer-details .col{
     text-align:center;
 }
@@ -27,10 +74,15 @@ body{
 #footer-details .col .list-inline-item{
     padding: 0 10px 0 10px;
     font-size: 200%;
-    color:#28333e;
+    color:#1D73EA;
 }
 
 
 #footer-details .col .list-inline-item i{
-    color:#28333e;
+    color:#1D73EA;
 }
+
+#footer-details .col h5{
+    color:#1D73EA;
+}
+
