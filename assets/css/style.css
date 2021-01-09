@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+slab:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 /*
 030710 rich black
 FFFFFF white
@@ -16,6 +17,7 @@ body{
     width:100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
+/*---------------------------------------------------Navbar*/
 
 /*--Copied & adapted from https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/--*/
 .navbar-toggler .navbar-toggler-icon{
@@ -23,28 +25,9 @@ body{
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29, 115, 234, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
 
-.navbar-logo{
-    position: absolute;
-    top:0;
-    right:0;
-    width:100px;
-    height:100px;
-    background: url("../images/dave-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.psychodrama {
-    background: url("../images/psychodrama-art.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height:100px;
-}
-
 .navbar .navbar-nav a{
     color:#1D73EA;
+    font-family: 'Exo', serif;
 }
 
 .navbar .navbar-nav .active a{
@@ -67,8 +50,59 @@ span .navbar-toggler-icon{
     border-color:#1D73EA;
 }
 
+/*---------------------------------------------------Images*/
+.navbar-logo{
+    position: absolute;
+    top:0;
+    right:0;
+    width:100px;
+    height:55px;
+    background: url("../images/dave_logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.psychodrama {
+    background: url("../images/psychodrama_art.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:360px;
+    background-size: 100%;
+    max-width: 533px;
+    max-height: 533px;
+}
+/*---------------------------------------------------Reviews*/
+.reviews{
+    color:#fff;
+    font-family: 'Roboto Slab', serif;
+}
+.reviews p a{
+    text-decoration:none;
+    color:#fff;
+    font-size:1.5rem;
+}
+
+/*---------------------------------------------------Block Dividers*/
+/*Copied and adapted from bootsrap4 project*/
+.block-divider{
+    width:35px;
+    height:5px;
+    border:0;
+    background-color:grey;
+}
+.block-divider--white{
+    background-color:#fff;
+}
+.block-divider--blue{
+    background-color:#1D73EA;
+}
+/*---------------------------------------------------Footer*/
 #footer-details .col{
     text-align:center;
+    padding-top:3rem;
 }
 
 #footer-details .col .list-inline-item{
@@ -86,3 +120,17 @@ span .navbar-toggler-icon{
     color:#1D73EA;
 }
 
+/*---------------------------------------------------Media Queries*/
+@media(min-width:992px){
+    .reviews{
+        color:#fff;
+        font-size:120%
+    }
+    .reviews p{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .reviews p a{
+        font-size:1.5rem;
+    }
+}
