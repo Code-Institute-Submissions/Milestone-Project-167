@@ -134,3 +134,9 @@ span .navbar-toggler-icon{
         font-size:1.5rem;
     }
 }
+
+/*---------------------------------------------------Modal*/
+.btn--newsletter{
+    color:#fff;
+    background-color:#1D73EA;
+}

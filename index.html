@@ -22,10 +22,11 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="/">Psychodrama</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="">About Dave</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="">Showcase</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="">Shop</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="">Newsletter</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="">Upcoming Shows</a></li>
+                <li><button class="btn btn--newsletter" data-toggle="modal" data-target="#NewsletterModal">Sign Up!</button></li>
             </ul>
         </div>
         <a class="navbar-logo" href="/"></a>
@@ -100,6 +101,33 @@
         </div>
     </footer>
 
+<div class="modal" tabindex="-1" role="dialog" id="NewsletterModal">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+         <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+    </div>
 
 <!--Bootstrap js-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
