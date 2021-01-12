@@ -7,155 +7,143 @@ FFFFFF white
 3588CA green blue crayola (lightest)
 9C6615 golden brown
 */
-
-body{
-    background-color:#030710;
+* {
+    font-size: 10px;
 }
-.navbar{
-    margin-bottom:0;
-    border:0;
-    width:100%;
+body {
+    background-color: #030710;
+}
+p {
+    font-size: 1.6rem;
+}
+ul li a {
+    font-size: 1.6rem;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
 /*---------------------------------------------------Navbar*/
-
 /*--Copied & adapted from https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/--*/
-.navbar-toggler .navbar-toggler-icon{
-    background-image: url( 
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29, 115, 234, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29, 115, 234, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-size: 2rem;
 }
-
-.navbar .navbar-nav a{
-    color:#1D73EA;
+.navbar .navbar-nav a {
+    color: #1D73EA;
     font-family: 'Exo', serif;
 }
-
-.navbar .navbar-nav .active a{
-    color:#0D4176;
+.navbar .navbar-nav .active a {
+    color: #0D4176;
 }
-
-
-.navbar .navbar-toggler{
-    border:0;
+.navbar .navbar-toggler {
+    border: 0;
     float: left;
 }
-
-.navbar-brand{
+.navbar-brand {
     position: absolute;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
 }
-
-span .navbar-toggler-icon{
-    border-color:#1D73EA;
+span .navbar-toggler-icon {
+    border-color: #1D73EA;
 }
-
 /*---------------------------------------------------Images*/
-.navbar-logo{
+.navbar-logo {
     position: absolute;
-    top:0;
-    right:0;
-    width:100px;
-    height:55px;
-    background: url("../images/dave_logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    width: 10rem;
+    height: 5.5rem;
+    background: url("../images/dave_logo.jpg") no-repeat center;
     background-size: cover;
 }
-
 .psychodrama {
-    background: url("../images/psychodrama_art.jpg");
     position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height:360px;
+    background: url("../images/psychodrama_art.jpg") no-repeat center;
+    min-height: 36rem;
     background-size: 100%;
-    max-width: 533px;
-    max-height: 533px;
+    max-width: 53.3rem;
+    max-height: 53.3rem;
 }
 /*---------------------------------------------------Reviews*/
-.reviews{
-    color:#fff;
+.reviews {
+    color: #fff;
     font-family: 'Roboto Slab', serif;
 }
-.reviews p{
-    padding-left:1rem;
+.reviews p {
+    padding-left: 1rem;
 }
-.reviews p a{
-    text-decoration:none;
-    color:#fff;
-    font-size:1.5rem;
+.reviews p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
 }
-
 /*---------------------------------------------------Footer*/
-#footer-details .col{
-    text-align:center;
-    padding-top:3rem;
+#footer-details .col {
+    text-align: center;
+    padding-top: 3rem;
 }
-
-#footer-details .col .list-inline-item{
+#footer-details .col .list-inline-item {
     padding: 0 1.5rem 0 1.5rem;
     font-size: 200%;
-    color:#1D73EA;
+    color: #1D73EA;
 }
-
-
-#footer-details .col .list-inline-item i{
-    color:#1D73EA;
+#footer-details .col .list-inline-item i {
+    color: #1D73EA;
 }
-
-#footer-details .col h5{
-    color:#1D73EA;
+#footer-details .col h5 {
+    color: #1D73EA;
 }
-
 /*---------------------------------------------------Block Dividers*/
 /*Copied and adapted from bootsrap4 project*/
-.block-divider{
-    width:35px;
-    height:5px;
-    border:0;
-    background-color:black;
+.block-divider {
+    width: 3.5rem;
+    height: .5rem;
+    border: 0;
+    background-color: black;
 }
-.block-divider--white{
-    background-color:#fff;
+.block-divider--white {
+    background-color: #fff;
 }
-.block-divider--blue{
-    background-color:#1D73EA;
+.block-divider--blue {
+    background-color: #1D73EA;
 }
-
 /*---------------------------------------------------Buttons*/
-.btn--newsletter{
-    color:#fff;
-    background-color:#1D73EA;
+.btn--newsletter {
+    color: #fff;
+    background-color: #1D73EA;
 }
-
-.btn--dark{
-    color:#fff;
-    background-color:#0D4176;
+.btn--dark {
+    color: #fff;
+    background-color: #0D4176;
 }
 /*---------------------------------------------------Modal*/
-
-#NewsletterModal .modal-content{
-    background-color:#1D73EA;
-    color:#fff;
+#NewsletterModal .modal-content {
+    background-color: #1D73EA;
+    color: #fff;
 }
-
-#emailHelp{
-    color:#fff;
+#emailHelp {
+    color: #fff;
 }
-
 /*---------------------------------------------------Media Queries*/
-@media(min-width:992px){
-    .reviews{
-        color:#fff;
-        font-size:120%
+@media (min-width: 764px) {
+    .reviews {
+        padding-top: 2rem;
     }
-    .reviews p{
+}
+@media (min-width: 992px) {
+    .reviews {
+        color: #fff;
+        font-size: 120%
+    }
+    .reviews p {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    .reviews p a{
-        font-size:1.5rem;
+    .reviews p a {
+        font-size: 1.5rem;
     }
 }
