@@ -79,26 +79,15 @@ span .navbar-toggler-icon{
     color:#fff;
     font-family: 'Roboto Slab', serif;
 }
+.reviews p{
+    padding-left:1rem;
+}
 .reviews p a{
     text-decoration:none;
     color:#fff;
     font-size:1.5rem;
 }
 
-/*---------------------------------------------------Block Dividers*/
-/*Copied and adapted from bootsrap4 project*/
-.block-divider{
-    width:35px;
-    height:5px;
-    border:0;
-    background-color:grey;
-}
-.block-divider--white{
-    background-color:#fff;
-}
-.block-divider--blue{
-    background-color:#1D73EA;
-}
 /*---------------------------------------------------Footer*/
 #footer-details .col{
     text-align:center;
@@ -106,7 +95,7 @@ span .navbar-toggler-icon{
 }
 
 #footer-details .col .list-inline-item{
-    padding: 0 10px 0 10px;
+    padding: 0 1.5rem 0 1.5rem;
     font-size: 200%;
     color:#1D73EA;
 }
@@ -118,6 +107,42 @@ span .navbar-toggler-icon{
 
 #footer-details .col h5{
     color:#1D73EA;
+}
+
+/*---------------------------------------------------Block Dividers*/
+/*Copied and adapted from bootsrap4 project*/
+.block-divider{
+    width:35px;
+    height:5px;
+    border:0;
+    background-color:black;
+}
+.block-divider--white{
+    background-color:#fff;
+}
+.block-divider--blue{
+    background-color:#1D73EA;
+}
+
+/*---------------------------------------------------Buttons*/
+.btn--newsletter{
+    color:#fff;
+    background-color:#1D73EA;
+}
+
+.btn--dark{
+    color:#fff;
+    background-color:#0D4176;
+}
+/*---------------------------------------------------Modal*/
+
+#NewsletterModal .modal-content{
+    background-color:#1D73EA;
+    color:#fff;
+}
+
+#emailHelp{
+    color:#fff;
 }
 
 /*---------------------------------------------------Media Queries*/
@@ -133,10 +158,4 @@ span .navbar-toggler-icon{
     .reviews p a{
         font-size:1.5rem;
     }
-}
-
-/*---------------------------------------------------Modal*/
-.btn--newsletter{
-    color:#fff;
-    background-color:#1D73EA;
 }
