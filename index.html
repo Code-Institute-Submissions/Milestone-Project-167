@@ -20,7 +20,7 @@
 <!--Navbar copied and adapted from bootstrap4-->
 <body>
 <div class="container">
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md fixed-top">
 ​
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -228,7 +228,7 @@
     </section>
 
     <!--Footer copied and adapted from resume-project-->
-    <footer class="container-fluid">
+    <footer class="container-fluid fixed-bottom">
         <div id="footer-details" class="row">
             <div class="col">
                 <h5 class="uppercase general-sub">Social</h5>
@@ -283,10 +283,12 @@
                             <label for="FirstName">First Name</label>
                             <input type="text" class="form-control" id="FirstName" placeholder="Enter First Name">
                         </div>
+                        <hr class="block-divider block-divider--white block-divider--thin">
                         <div class="form-group">
-                            <label for="LastName">Last Name</label>
+                            <label for="LastName">Last Name</label> 
                             <input type="text" class="form-control" id="LastName" placeholder="Enter Last Name">
                         </div>
+                        <hr class="block-divider block-divider--white block-divider--thin">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
@@ -294,6 +296,7 @@
                                    placeholder="Enter Email">
                             <small id="emailHelp" class="">We'll never share your email with anyone else.</small>
                         </div>
+                        <hr class="block-divider block-divider--white block-divider--thin">
                         <button type="submit" class="btn btn--dark">Submit</button>
                     </form>
                 </div>

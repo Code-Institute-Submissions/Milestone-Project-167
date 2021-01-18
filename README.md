@@ -32,4 +32,4 @@ My first Code Institute milestone project concerning User Centric Frontend Devel
 
 
 #### Design and Wireframes
-![My home sreen wireframes](assets/wireframes/home_wireframes.pdf) "Home Screen Wireframes")
+![My home screen wireframes](assets/wireframes/shows_desktop.png)
