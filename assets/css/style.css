@@ -112,7 +112,7 @@ ul li a {
     position: relative;
     margin-right: 0;
     display: inline-block;
-    width: 15%;
+    width: 16.7%;
     padding-top: 4.5rem;
     vertical-align:top;
     }
@@ -187,6 +187,32 @@ ul li a {
     padding: 5rem 0 5rem 0;
 }
 /*---------------------------------------------------Shows*/
+.shows{
+    padding-bottom:10rem;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size:2rem;
+}
+
+.show-container{
+    border-style: solid;
+    border-color: #1D73EA;
+    border-width:0.2rem;
+    border-radius: 0.2rem;
+    margin: 1rem 0.1rem 1rem 0.1rem;
+}
+.uppercase{
+    text-transform:uppercase;
+}
+.center{
+    text-align: center;
+}
+.shows a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #fff;
+}
+
 
 /*---------------------------------------------------Footer*/
 #footer-details .col {
