@@ -28,7 +28,7 @@ I have designed this website using my knowledge of HTML and CSS, with any borrow
 - As a returning visitor, I want to access up-to-date information on the artist's releases
 
 ##### As a frequent visitor
-- As a frequent visitor, I want to see if the artist is working on any new releases that I can expect soon
+- As a frequent visitor, I want to keep up to date on the artist's social media posts
 - As a frequent visitor, I want to sign up to a newsletter to keep abreast of the artist's releases and shows and any message the artist wishes to convey to fans
 
 #### Structure
@@ -38,6 +38,7 @@ The website is contained within a single page, with a navbar containing hyperlin
 
 The website also has a footer attached to the bottom of the screen with a number of links to the artist's social media pages and streaming services. The purpose of this is to fulfill user story:
 > As a first time visitor, I want there to be content pertaining to the artist's online presence through social media
+> As a frequent visitor, I want to keep up to date on the artist's social media posts
 
 The website is designed with responsivity in mind, creating an easy-on-the-eye bootstrap based layout at all screen sizes. The purpose of this is to fulfill user story:
 > As a first time visitor, I want to be able to use this website comfortably on any of my devices
@@ -45,7 +46,13 @@ The website is designed with responsivity in mind, creating an easy-on-the-eye b
 The website has a section containing the artist's next upcoming shows at the bottom of the webpage, with a link in the navbar for ease of access. The purpose of this is to fulfill user story:
 > As a returning visitor, I want to see details of shows and access tickets for entry to them
 
+The website features the artist's latest major release at the top of the website and a carousel of the artist's works with links to them. The purpose of this is to fulfill user story:
+> As a returning visitor, I want to access up-to-date information on the artist's releases
+
+The website features a button in the navbar to sign up. This brings up a modal which can be filled in with contact details to this end. The purpose of this is to fulfill user story:
+> As a frequent visitor, I want to sign up to a newsletter to keep abreast of the artist's releases and shows and any message the artist wishes to convey to fans
 #### Design and Wireframes
+I have used colours taken from the artist's debut album art, his largest and most popular work to date, to create the colour scheme. These include primarily white ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) for the text, blue crayola ![#1D73EA](https://placehold.it/15/1D73EA/000000?text=+) for nav and footer text, and rich black ![#030710](https://placehold.it/15/030710/000000?text=+) for the background.
 ![My home screen wireframes](assets/wireframes/shows_desktop.png)
 
 ## Imported and Borrowed Features
