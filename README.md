@@ -16,6 +16,7 @@ My first Code Institute milestone project concerning User Centric Frontend Devel
 ## Purpose of the website
 This website has been developed as part of my Code Institute Full Stack Developer Course, and will act as my first Milestone Project for the User Centric Frontend module. 
 I have designed this website using my knowledge of HTML and CSS, with any borrowed features referenced in a section of this document.
+The website can be accessed [here](https://willdeakin.github.io/Milestone-Project-1/).
 ### User Experience Design
 #### User Stories
 ##### As a first time visitor:
@@ -52,8 +53,42 @@ The website features the artist's latest major release at the top of the website
 The website features a button in the navbar to sign up. This brings up a modal which can be filled in with contact details to this end. The purpose of this is to fulfill user story:
 > As a frequent visitor, I want to sign up to a newsletter to keep abreast of the artist's releases and shows and any message the artist wishes to convey to fans
 #### Design and Wireframes
+##### Colour Scheme
 I have used colours taken from the artist's debut album art, his largest and most popular work to date, to create the colour scheme. These include primarily white ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) for the text, blue crayola ![#1D73EA](https://placehold.it/15/1D73EA/000000?text=+) for nav and footer text, and rich black ![#030710](https://placehold.it/15/030710/000000?text=+) for the background.
-![My home screen wireframes](assets/wireframes/shows_desktop.png)
+
+
+##### Typography
+I have used the same 2 fonts throughout the website; Exo for the navbar and roboto slab for the body.
+
+##### Images
+I have used a number of images from the artist's album arts and from articles written about the artist. The images are mostly used in carousels in the body of the website in a 1:1 ratio. I also used a few youtube videos through the website from the artist's youtube channel.
+
+##### Wireframes
+I have grouped my wireframes into sections below, with each set consisting of a small, mid and large sized screen.
+
+Home Section
+
+![My home section wireframes](assets/wireframes/home_wireframes.png)
+
+About Section
+
+![My about section wireframes](assets/wireframes/about_wireframes.png)
+
+Showcase Section
+
+![My showcase section wireframes](assets/wireframes/showcase_wireframes.png)
+
+Shows Section
+
+This section includes an idea of what my modal for the signup button in the navbar should look like at the bottom. This is simply because my show section is the shortest and I wanted to include this modal in the wireframes, it doesn't represent the placement of my modal relative to the webpage.
+
+![My shows section wireframes](assets/wireframes/shows_wireframes.png)
+
+##### Divergences from my wireframes
+In the home section, my wireframe showed all the features contained on 1 line, which I decided to change to have 2 lines of content. I did this to achieve a more pleasing layout.
+
+In the showcase section, my wireframe showed multiple carousels for the artist's images, which I omitted in favour of just showing 1 carousel. I did this to keep the layout of the webpage more simple and because multiple carousels in the same section seemed redundant.
+
 
 ## Imported and Borrowed Features
 
