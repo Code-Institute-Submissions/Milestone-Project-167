@@ -7,9 +7,10 @@ My first Code Institute milestone project concerning User Centric Frontend Devel
     * [User Stories](#user-stories)
     * [Structure](#structure)
     * [Design and Wireframes](#design-and-wireframes)
-* [Imported and Borrowed Features](#imported-and-borrowed-features)
-    * [Custom Alterations to Borrowed Features](#custom-alterations-to-borrowed-features)
-* [Features](#features)
+* [Features](#Features)
+    * [Existing Features](#existing-features)
+    * [Future Features](#future-features)
+* [Technologies](#Technologies)
 * [Testing and Bug Fixes](#testing-and-bug-fixes)
 * [Credits](#credits)
 
@@ -90,10 +91,19 @@ In the home section, my wireframe showed all the features contained on 1 line, w
 In the showcase section, my wireframe showed multiple carousels for the artist's images, which I omitted in favour of just showing 1 carousel. I did this to keep the layout of the webpage more simple and because multiple carousels in the same section seemed redundant.
 
 
-## Imported and Borrowed Features
-
-### Custom Alterations to Borrowed Features
 ## Features
+
+### Existing Features
+- The signup button in the navbar brings up a newsletter sign up modal.
+- In the home and showcase sections are embeded YouTube videos which can be played.
+- In the about section is a short timeline of the artist's career milestones, which only appears on large screens.
+- In the about and showcase sections are 2 carousel galleries showing pictures of the artist and of his cover arts. These are implemented to cycle through automatically and showcase more of the artist while saving space and keeping an appealling layout.
+- In the showcase section there are 2 embedded spotify music players with album art attached to the top for layout, which can be played.
+- In the shows section, there are extra shows added at large screen sizes for the format.
+### Future Features
+
+## Technologies
+
 
 ## Testing and Bug Fixes
 
