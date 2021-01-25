@@ -66,6 +66,10 @@ ul li a {
     max-width: 53.3rem;
     max-height: 53.3rem;
 }
+iframe{
+    border-width:0;
+}
+
 
 /*---------------------------------------------------Reviews*/
 .reviews {

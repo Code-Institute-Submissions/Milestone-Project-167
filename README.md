@@ -103,8 +103,34 @@ In the showcase section, my wireframe showed multiple carousels for the artist's
 ### Future Features
 
 ## Technologies
-
+* HTML
+    * This project uses HTML for the structure and content of the site.
+* CSS
+    * This project uses a custom CSS file to style the site.
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+    * This project uses Bootstrap CSS and JS to style the site and add layout and various functionalities such as buttons.
+* [Fontawesome](https://fontawesome.com/)
+    * This project uses Fontawesome to add icons in the site.
+* [Google fonts](https://fonts.google.com/)
+    * This project uses Google fonts to style the text in the site.
+* [Hover effects](https://cdnjs.com/libraries/hover.css/2.1.1)
+    * This project uses Hover effects to style the text and icons in the site.
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/?gclid=CjwKCAiA9bmABhBbEiwASb35Vz5eNriDRNqnP0yfLYeqI0aYF9r5Qf45QNEoXootlZ-VmwSloDl8rRoCdbcQAvD_BwE)
+    * Balsamiq Wireframes were used to create wireframes for UX design.
+* [Github](https://github.com/)
+    * This project uses Github as the hosting site, which stores the code and deploys the site through [Gitpages](https://pages.github.com/).
+* [Coolors](https://coolors.co/)
+    * This project uses a colour scheme developed from the artist's album art through Coolors.
 
 ## Testing and Bug Fixes
 
 ## Credits
+- Code
+    * [Horizontal Timeline](https://www.bootdey.com/snippets/view/simple-horizontal-timeline#css)
+        - The code for the horizontal timeline in the about section is copied and pasted then adapted from this source into my HTML and custom CSS files.
+    * [Navbar Icon Colour Changer](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/)
+        - The code used to change the colour of the hamburger nav icon in the navbar is copied and pasted then adapted from this source into my custom CSS file.
+    * [Block Dividers](https://github.com/Willdeakin/bootstrap4)
+        - The code used to implement block divider lines between paragraphs in the home section and signup modal is copied and pasted then adapted from a previous Code Institute project into my custom CSS file.
+    * [Footer](https://github.com/Willdeakin/resume-project)
+        - The code used to create the basis for the footer is copied and pasted then adapted from a previous Code Institute project into my HTML file.
