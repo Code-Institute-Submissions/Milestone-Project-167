@@ -12,6 +12,10 @@ My first Code Institute milestone project concerning User Centric Frontend Devel
     * [Future Features](#future-features)
 * [Technologies](#Technologies)
 * [Testing and Bug Fixes](#testing-and-bug-fixes)
+* [Deployment](#deployment)
+    * [Project Creation](#project-creation)
+    * [GitHub Pages](#using-github-pages)
+    * [Locally](run-locally)
 * [Credits](#credits)
 
 ## Purpose of the website
@@ -85,6 +89,12 @@ This section includes an idea of what my modal for the signup button in the navb
 
 ![My shows section wireframes](assets/wireframes/shows_wireframes.png)
 
+To access these wireframes seperately, click the links below:
+* [Home Section Wireframe](assets/wireframes/home_wireframes.png)
+* [About Section Wireframe](assets/wireframes/about_wireframes.png)
+* [Showcase Section Wireframe](assets/wireframes/showcase_wireframes.png)
+* [Shows Section Wireframe](assets/wireframes/shows_wireframes.png)
+
 ##### Divergences from my wireframes
 In the home section, my wireframe showed all the features contained on 1 line, which I decided to change to have 2 lines of content. I did this to achieve a more pleasing layout.
 
@@ -124,6 +134,32 @@ In the showcase section, my wireframe showed multiple carousels for the artist's
 
 ## Testing and Bug Fixes
 
+## Deployment
+
+### Project Creation
+This project was created in its own repository using Github under my account name. It is named Willdeakin/Milestone-Project-1 and contains all the necessary files to run the website.
+
+I used Gitpod to write and edit these files, using the bash terminal for saving, updating and version control of the project. For the purpose of this project, I used these commands:
+- git add -A; to add all files to the staging area
+- git commit -m "*message detailing the changes from the last version*"; to commit changes from the staging area to the local repository
+- git push; to push committed changes from the local repository to the Github repository
+
+### Using GitHub Pages
+- Access the GitHub repository [here](https://github.com/Willdeakin/Milestone-Project-1/).
+- Click the Settings tab in the tabs menu.
+- Scroll to the Github Pages section.
+- Make sure that the branch selected is main; it should already be selected, if not this should be saved with the button just next to the branch dropdown.
+- Click the link on the first line, which should read 'https://willdeakin.github.io/Milestone-Project-1/'
+### Run Locally
+- Access the GitHub repository [here](https://github.com/Willdeakin/Milestone-Project-1/).
+- Click the Code dropdown.
+    - Download the ZIP file, which can be unpackaged and opened with an IDE.
+- Or 
+    - Copy Git URL (there is a handy clip button next to the URL).
+    - Open a development editor and a terminal window within the directory.
+    - Use 'git clone' in the terminal followed by the copied URL.
+    - You now have a copy of the project in your directory.
+
 ## Credits
 - Code
     * [Horizontal Timeline](https://www.bootdey.com/snippets/view/simple-horizontal-timeline#css)
@@ -134,3 +170,7 @@ In the showcase section, my wireframe showed multiple carousels for the artist's
         - The code used to implement block divider lines between paragraphs in the home section and signup modal is copied and pasted then adapted from a previous Code Institute project into my custom CSS file.
     * [Footer](https://github.com/Willdeakin/resume-project)
         - The code used to create the basis for the footer is copied and pasted then adapted from a previous Code Institute project into my HTML file.
+    - The creator of the project, Willdeakin.
+
+- Content
+    - The creator of the project, Willdeakin.
