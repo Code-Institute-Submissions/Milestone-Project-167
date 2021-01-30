@@ -133,6 +133,85 @@ In the showcase section, my wireframe showed multiple carousels for the artist's
     * This project uses a colour scheme developed from the artist's album art through Coolors.
 
 ## Testing and Bug Fixes
+This webpage is front end oriented, and as such will be tested for its layout and responsiveness across browsers and page sizes. 
+Testing will be done across google chrome, mozilla firefox and microsoft edge at small (phone), medium (tablet/notebook) and large (any larger screen) sizes.
+
+To be considered successful, in each browser and at each size the webpage should;
+- Contain working and correct hyperlinks, both internal and external, with external links opening in a fresh tab.
+- Have no overlapping divs/ sections such that the layout is compromised.
+- Display a similar layout as to the wireframes provided above, with the exception of changes in layout design mentioned alongside the wireframes.
+- Contain working windows such as youtube videos and carousels.
+
+Each browser should fulfill the following test cases upon testing:
+
+| Test Description  	|   Shorthand Reference	|
+|---	|---	|
+|   Layout should be preserved at all window sizes	|  TC1 	|
+|  All external links should be in correct working order and create a fresh tab 	|   TC2 |
+|  All internal links should be in correct working order 	|   TC3 |
+|  All carousels should cycle through automatically and be manually operable 	|   TC4	|
+|  All hover effects and color changes should be in working order 	|   TC5	|
+
+#### TC1
+
+Testing process:
+- Open website in the tested browser
+- Right click and inspect element
+- Change device width for each size class (small, medium and large)
+
+Test case results for each browser:
+- Google chrome
+- Microsoft edge
+- Mozilla firefox
+
+#### TC2
+
+Testing process:
+- Open website in the tested browser
+- Left click each external link in the website
+- Confirm each link creates a new tab with the desired hyperlink
+
+Test case results for each browser:
+- Google chrome
+- Microsoft edge
+- Mozilla firefox
+
+#### TC3
+
+Testing process:
+- Open website in the tested browser
+- Left click each nav element
+- Confirm each nav link brings one to the desired section
+
+Test case results for each browser:
+- Google chrome
+- Microsoft edge
+- Mozilla firefox
+
+#### TC4
+
+Testing process:
+- Open website in the tested browser
+- Observe whether the carousel automatically cycles through the images
+- Left click the left and right arrows to confirm that manual cycling works as desired
+
+Test case results for each browser:
+- Google chrome
+- Microsoft edge
+- Mozilla firefox
+
+#### TC5
+
+Testing process:
+- Open website in the tested browser
+- Hover over each element with a hover effect/ color change
+- Confirm each hover sensitive element is effected as desired
+
+Test case results for each browser:
+- Google chrome
+- Microsoft edge
+- Mozilla firefox
+
 
 ## Deployment
 
