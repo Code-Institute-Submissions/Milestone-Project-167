@@ -160,9 +160,9 @@ Testing process:
 - Change device width for each size class (small, medium and large)
 
 Test case results for each browser:
-- Google chrome
-- Microsoft edge
-- Mozilla firefox
+- Google chrome - Testing all 3 size classes, the webpage acted as desired and passed.
+- Microsoft edge - Testing all 3 size classes, the webpage acted as desired and passed.
+- Mozilla firefox - Testing all 3 size classes, the webpage acted as desired and passed.
 
 #### TC2
 
@@ -249,7 +249,10 @@ I used Gitpod to write and edit these files, using the bash terminal for saving,
         - The code used to implement block divider lines between paragraphs in the home section and signup modal is copied and pasted then adapted from a previous Code Institute project into my custom CSS file.
     * [Footer](https://github.com/Willdeakin/resume-project)
         - The code used to create the basis for the footer is copied and pasted then adapted from a previous Code Institute project into my HTML file.
-    - The creator of the project, Willdeakin.
+    - The code of this project was created by Will Deakin.
 
 - Content
-    - The creator of the project, Willdeakin.
+    - The content of this project was created by Will Deakin.
+
+- Media
+    - The media used in this project is sourced from the artist's social media, published works and from online publications.
