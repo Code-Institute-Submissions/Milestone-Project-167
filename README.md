@@ -172,9 +172,9 @@ Testing process:
 - Confirm each link creates a new tab with the desired hyperlink
 
 Test case results for each browser:
-- Google chrome
-- Microsoft edge
-- Mozilla firefox
+- Google chrome - Upon first try, realised that an external link wasn't written to open in a fresh window. Made the necessary fix, first test was a fail but upon retest was a pass.
+- Microsoft edge - As this test was conducted after the chrome test, the fix was made and the first test was a pass.
+- Mozilla firefox - As this test was conducted after the chrome test, the fix was made and the first test was a pass.
 
 #### TC3
 
@@ -184,9 +184,9 @@ Testing process:
 - Confirm each nav link brings one to the desired section
 
 Test case results for each browser:
-- Google chrome
-- Microsoft edge
-- Mozilla firefox
+- Google chrome - All nav elements took the page to the desired section, this was a pass.
+- Microsoft edge - All nav elements took the page to the desired section, this was a pass.
+- Mozilla firefox - All nav elements took the page to the desired section, this was a pass.
 
 #### TC4
 
@@ -196,9 +196,9 @@ Testing process:
 - Left click the left and right arrows to confirm that manual cycling works as desired
 
 Test case results for each browser:
-- Google chrome
-- Microsoft edge
-- Mozilla firefox
+- Google chrome - Both carousels were automatically cycling through the images, with the arrows operable for manual control, this was a pass.
+- Microsoft edge - Both carousels were automatically cycling through the images, with the arrows operable for manual control, this was a pass.
+- Mozilla firefox - Both carousels were automatically cycling through the images, with the arrows operable for manual control, this was a pass.
 
 #### TC5
 
@@ -208,10 +208,32 @@ Testing process:
 - Confirm each hover sensitive element is effected as desired
 
 Test case results for each browser:
-- Google chrome
-- Microsoft edge
-- Mozilla firefox
+- Google chrome - All nav elements and footer icons acted as desired when hovered over, this was a pass.
+- Microsoft edge - All nav elements and footer icons acted as desired when hovered over, this was a pass.
+- Mozilla firefox - All nav elements and footer icons acted as desired when hovered over, this was a pass.
 
+The HTML Page was validated using the [W3C Markdown Validator](https://validator.w3.org/nu/#textarea) and showed no errors, but 2 warning appeared regarding sections with no headings at the beginning. I decided not to act on these, as I think no headings for these 2 sections are more visually appealing.
+
+The CSS Page was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors or warnings.
+
+- As a first time visitor, I want to easily navigate this website - testing was performed to ensure that sections had a clear purpose through headings and content, and were easy to follow.
+- As a first time visitor, I want there to be content pertaining to the artist's online presence through social media - testing was performed on all external links to ensure the artist's social media was available and easy to access.
+- As a first time visitor, I want to be able to use this website comfortably on any of my devices - testing was performed on a variety of screen sizes to ensure ease of access and responsivity on all devices.
+
+
+- As a returning visitor, I want to see details of shows and access tickets for entry to them - testing was performed to ensure that upcoming show details were included in the webpage and were clearly presented.
+- As a returning visitor, I want to access up-to-date information on the artist's releases - testing was performed to ensure that the latest and most popular releases from the artist were clearly represented on the webpage.
+
+
+- As a frequent visitor, I want to keep up to date on the artist's social media posts - testing was performed on all external links to ensure the artist's social media was available and easy to access.
+- As a frequent visitor, I want to sign up to a newsletter to keep abreast of the artist's releases and shows and any message the artist wishes to convey to fans - testing was performed to ensure that there was a clear form that could be filled in to sign up to the artist's newsletter.
+
+#### Notable bug fixes during coding and testing
+
+- The link to the artist's show booking website didn't open in a new window, this was resolved during testing.
+- There were multiple issues with formatting the images, which was solved by placing them in containers and having them fill the container.
+- The embedded spotify music windows were acting seperately to the images attached above, this was fixed by aligning them both centrally and assigning the same width values.
+- The embedded youtube windows were formatting with a short height, meaning they were essentially inoperable, which was fixed by adding a min-height.
 
 ## Deployment
 

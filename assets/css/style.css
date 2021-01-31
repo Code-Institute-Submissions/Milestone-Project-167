@@ -310,6 +310,9 @@ iframe{
     .reviews {
         padding-top: 2rem;
     }
+    .brits-video{
+    min-height: 36rem;
+    }
     .embedded-music{
     width:75%;
     }
@@ -334,6 +337,9 @@ iframe{
     }
     .reviews p a {
         font-size: 150%;
+    }
+    .brits-video{
+    min-height: 46rem;
     }
     .carousel-image{
     padding:0;
