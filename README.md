@@ -9,7 +9,6 @@ My first Code Institute milestone project concerning User Centric Frontend Devel
     * [Design and Wireframes](#design-and-wireframes)
 * [Features](#Features)
     * [Existing Features](#existing-features)
-    * [Future Features](#future-features)
 * [Technologies](#Technologies)
 * [Testing and Bug Fixes](#testing-and-bug-fixes)
 * [Deployment](#deployment)
@@ -100,7 +99,6 @@ In the home section, my wireframe showed all the features contained on 1 line, w
 
 In the showcase section, my wireframe showed multiple carousels for the artist's images, which I omitted in favour of just showing 1 carousel. I did this to keep the layout of the webpage more simple and because multiple carousels in the same section seemed redundant.
 
-
 ## Features
 
 ### Existing Features
@@ -110,7 +108,6 @@ In the showcase section, my wireframe showed multiple carousels for the artist's
 - In the about and showcase sections are 2 carousel galleries showing pictures of the artist and of his cover arts. These are implemented to cycle through automatically and showcase more of the artist while saving space and keeping an appealling layout.
 - In the showcase section there are 2 embedded spotify music players with album art attached to the top for layout, which can be played.
 - In the shows section, there are extra shows added at large screen sizes for the format.
-### Future Features
 
 ## Technologies
 * HTML
@@ -220,10 +217,8 @@ The CSS Page was validated using the [W3C CSS Validator](https://jigsaw.w3.org/c
 - As a first time visitor, I want there to be content pertaining to the artist's online presence through social media - testing was performed on all external links to ensure the artist's social media was available and easy to access.
 - As a first time visitor, I want to be able to use this website comfortably on any of my devices - testing was performed on a variety of screen sizes to ensure ease of access and responsivity on all devices.
 
-
 - As a returning visitor, I want to see details of shows and access tickets for entry to them - testing was performed to ensure that upcoming show details were included in the webpage and were clearly presented.
 - As a returning visitor, I want to access up-to-date information on the artist's releases - testing was performed to ensure that the latest and most popular releases from the artist were clearly represented on the webpage.
-
 
 - As a frequent visitor, I want to keep up to date on the artist's social media posts - testing was performed on all external links to ensure the artist's social media was available and easy to access.
 - As a frequent visitor, I want to sign up to a newsletter to keep abreast of the artist's releases and shows and any message the artist wishes to convey to fans - testing was performed to ensure that there was a clear form that could be filled in to sign up to the artist's newsletter.
@@ -278,3 +273,5 @@ I used Gitpod to write and edit these files, using the bash terminal for saving,
 
 - Media
     - The media used in this project is sourced from the artist's social media, published works and from online publications.
+
+Thanks to my mentor Spencer Barriball for feedback and guidance for this project, which lead me in good stead.
